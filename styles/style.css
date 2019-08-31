@@ -6,9 +6,9 @@
 
 .card-img-top {
     width: 98%;
-    height: 54vh;
+    height: 56vh;
     object-fit: cover;
-    padding: 4px;
+    padding: 1px;
     background-position: center;
 }
 
