@@ -6,9 +6,9 @@
 
 .card-img-top {
     width: 98%;
-    height: 44vh;
+    height: 52vh;
     object-fit: cover;
-    padding: 4px 4px 4px 4px;
+    padding: 4px;
     background-position: center;
 }
 
@@ -18,11 +18,11 @@
 }
 
 .card-container {
-    display: flex; flex-direction: column;
+    display: flex; flex-wrap: wrap; flex-basis: auto; justify-content: space-between;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 40em) {
     .card-container {
-        display: flex; flex-direction: row; justify-content: space-evenly;
+        display: flex; flex-wrap: wrap; justify-content: space-between;
     }
 }
