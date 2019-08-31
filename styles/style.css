@@ -1,0 +1,28 @@
+.card {
+    border: 1 px solid #131010;
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 98%;
+    height: 44vh;
+    object-fit: cover;
+    padding: 4px 4px 4px 4px;
+    background-position: center;
+}
+
+.card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex; flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+    .card-container {
+        display: flex; flex-direction: row; justify-content: space-evenly;
+    }
+}
