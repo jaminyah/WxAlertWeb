@@ -4,66 +4,84 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WxAlert Support</title>
-        <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="./styles/card.css">
+        <link rel="stylesheet" href="./styles/nav.css">
+        <link rel="stylesheet" href="./styles/style.css">
     </head>
     <body>
-        <header>
-                <a class="logo" href="./"><img src="images/icons/app_icon64.jpg" alt="wxalert app icon"></a>
-                <h1>Welcome to Support</h1>
-                <hr>
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="./">Home</a></li>
-                        <li class="nav-item"><a href="./ui_flow.html">UI Flow</a></li>
-                        <li class="nav-item"><a href="./wx_icons.html">WX Icons</a></li>
-                        <li class="nav-item"><a href="./alert_icons.html">Alerts</a></li>
-                        <li class="nav-item"><a href="./_diamond_icons.html">Diamond Alerts</a></li>
-                        <li class="nav-item"><a href="./contact.html">Contact</a></li>
-                    </ul>
-                </nav>
+         <header>
+            <nav class="navbar">
+                <label class="navbar-toggle" id="js-navbar-toggle" for="chkToggle">
+                    <i class="hamburger"></i>Menu
+                </label>
+                <a href="#" class="logo"><img src="./images/logo/app_icon64.png"></a>
+                <input type="checkbox" id="chkToggle"></input>
+                <ul class="main-nav" id="js-menu">
+                    <li>
+                        <a href="./" class="nav-links">Home</a>
+                    </li>
+                    <li>
+                        <a href="./flow.html" class="nav-links">Flow</a>
+                    </li>
+                    <li>
+                        <a href="./weather.html" class="nav-links">Weather</a>
+                    </li>
+                    <li>
+                        <a href="./alert.html" class="nav-links">Alert</a>
+                    </li>
+                    <li>
+                        <a href="./caution.html" class="nav-links">Caution</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="nav-links">Contact</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
 
         <main class="main">
             <article class="article">
-                <section class="overview">
-                    <h1>App Overview</h1>  
-                    <p>WxAlert is a mobile application that provides current weather information from the National Weather Service (NWS) 
-                        for more than 20,000 cities across the continental United States. The application's primary view presents weather information
-                        that is published daily. Weather information is presented using various icons. When available, weather alert notifications, for the local area, 
-                        are displayed in the primary weather view. Alert notifications are displayed using a list of icons. Details of the alert is presented, in text format,
-                        on a separate view.
-                    </p>
+                <section>
+                    <div class="overview">
+                            <h1>App Overview</h1>  
+                            <p>WxAlert is a mobile application that provides current weather information from the National Weather Service (NWS) 
+                                for more than 20,000 cities across the continental United States. The application's primary view presents weather information
+                                that is published daily. Weather information is presented using various icons. When available, weather alert notifications, for the local area, 
+                                are displayed in the primary weather view. Alert notifications are displayed using a list of icons. Details of the alert is presented, in text format,
+                                on a separate view.
+                            </p>
+                    </div>
                     <div class="card-container">
                         <div class="card" style="width: 26rem;"> 
                             <img class="card-img-top" src="./images/screenshot/screen_portrait.jpg" alt="typical">
                             <div class="card-body">
                                 <h3 class="card-title">Weather View</h3>
-                                <h5 class="card-subtitle">Portrait Mode</h4>
-                                <p class="card-text">Daily weather forecast.</p>
+                                <h4 class="card-subtitle">Portrait Mode</h4>
+                                <p class="card-text">Forecast in portrait mode that includes an air quality alert.</p>
                             </div>
                         </div>
                         <div class="card" style="width: 26rem;"> 
                             <img class="card-img-top" src="./images/screenshot/screen_landscape.jpg" alt="alert">
                             <div class="card-body">
                                 <h3 class="card-title">Weather View</h3>
-                                <h5 class="card-subtitle">Landscape Mode</h4>
-                                <p class="card-text">Forecast in landscape mode.</p>
+                                <h4 class="card-subtitle">Landscape Mode</h4>
+                                <p class="card-text">Forecast in landscape mode showing severe thunderstorm, and special weather statement alerts.</p>
                             </div>
                         </div>
                         <div class="card" style="width: 26rem;"> 
                             <img class="card-img-top" src="./images/screenshot/screen_alert.jpg" alt="callout">
                             <div class="card-body">
                                 <h3 class="card-title">Weather View</h3>
-                                <h5 class="card-subtitle">Weather Alert</h4>
-                                <p class="card-text">Forecast weather alert.</p>
+                                <h4 class="card-subtitle">Weather Alert</h4>
+                                <p class="card-text">Forecast showing flood advisory caution.</p>
                             </div>
                         </div>
                         <div class="card" style="width: 26rem;"> 
                             <img class="card-img-top" src="./images/screenshot/screen_alert_detail.jpg" alt="callout">
                             <div class="card-body">
                                 <h3 class="card-title">Weather View</h3>
-                                <h5 class="card-subtitle">Weather Alert Detail</h4>
-                                <p class="card-text">Forecast weather alert detail.</p>
+                                <h4 class="card-subtitle">Weather Alert Detail</h4>
+                                <p class="card-text">Coastal Flood Statement alert detail.</p>
                             </div>
                         </div>
                     </div>
