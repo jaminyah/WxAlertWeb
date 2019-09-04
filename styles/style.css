@@ -11,3 +11,20 @@ th, td {
 section {
     margin: 10px;
 }
+
+img {
+    margin-right: 10px;
+    width: 46px;
+}
+.icon-row {
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    padding: 10px 0;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
