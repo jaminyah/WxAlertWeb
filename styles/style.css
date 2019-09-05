@@ -12,7 +12,7 @@ section {
     margin: 10px;
 }
 
-img {
+.tabbar-icon {
     margin-right: 10px;
     width: 46px;
 }
@@ -21,6 +21,10 @@ img {
     flex-direction: row;
     height: 48px;
     padding: 10px 0;
+}
+
+.screenshot {
+    padding: 10px;
 }
 
 .text-container {
