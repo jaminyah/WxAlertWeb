@@ -11,3 +11,7 @@ table, th, td {
 .row-desc {
     width: 60%;
 }
+
+th, td {
+    padding: 10px;
+}
