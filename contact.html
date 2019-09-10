@@ -6,7 +6,7 @@
         <title>WxAlert Support</title>
         <link rel="stylesheet" href="./styles/card.css">
         <link rel="stylesheet" href="./styles/nav.css">
-        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/contact.css">
     </head>
     <body>
          <header>
@@ -40,13 +40,24 @@
         </header>
 
         <main class="main">
-            <article class="article">
-                <section>
-                    <form>
-                        <h1>Contact</h1>
-                    </form>
-                </section>
-            </article>
+            <form id="contact-form" method="POST" action="/">
+                <h1>Contact Us</h1>
+                <div id="from">
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="user_name" required>
+                </div>
+                <div id="reply">
+                    <label for="mail">email</label>:</label>
+                    <input type="email" name="user_email" required placeholder="email address">
+                </div>
+                <div id="message">
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+                <div class="button">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
         </main>
  
         <footer>
